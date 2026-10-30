@@ -1,0 +1,396 @@
+{
+ "url": "http://127.0.0.1:45497/index.html",
+ "langs": {
+  "es": {
+   "textos_iguales_al_es": [],
+   "chat": [
+    {
+     "q": "¿Qué habitaciones tenéis?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "Tiene 70 habitaciones: Twin (35 m²), Doble Superior (40 m², cama Queen y bañera semicircular), Junior Suite (45 m², con columna de hidromasa"
+    },
+    {
+     "q": "¿Hay piscina?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "Sí, hay piscina al aire libre del 1 de junio al 1 de septiembre, solo para clientes. No está adaptada para personas con movilidad reducida."
+    },
+    {
+     "q": "¿Dónde aparco?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "El hotel dispone de aparcamiento privado cubierto, bajo disponibilidad y de pago directamente en el hotel."
+    },
+    {
+     "q": "¿Tenéis cuna para bebés?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "Sí, hay cunas sin coste adicional, bajo petición, para niños de hasta 3 años, sujetas a disponibilidad."
+    },
+    {
+     "q": "¿Hay restaurante?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "Sí, el Restaurante Guijas de la Mancha, con cafetería, desayuno buffet y cocina que une tradición y originalidad, con platos manchegos."
+    },
+    {
+     "q": "¿Dónde está el hotel?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "En la Calle Tinte 3, 13001 Ciudad Real, junto a la Plaza del Pilar. Desde la estación de AVE, autobuses urbanos 3, 4 o 5 hasta la parada Pla"
+    },
+    {
+     "q": "¿Qué se puede visitar?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "Recomiendan la Puerta de Toledo, la única puerta de la muralla que se conserva, y el Parque Arqueológico de Alarcos, a unos 8 km. El hotel o"
+    },
+    {
+     "q": "¿Cómo reservo?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Puedes buscar disponibilidad y reservar en su motor de reservas (botón Reservar), llamar al +34 926 22 85 45 o escribir a recepcion@santacec"
+    },
+    {
+     "q": "¿Podéis confirmarme disponibilidad para mañana?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Puedes buscar disponibilidad y reservar en su motor de reservas (botón Reservar), llamar al +34 926 22 85 45 o escribir a recepcion@santacec"
+    },
+    {
+     "q": "¿Tenéis salones para eventos?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "Sí, tiene salones para reuniones, convenciones y congresos, con montaje en teatro, escuela, imperial o en U, y organiza bodas y celebracione"
+    },
+    {
+     "q": "¿Hay recepción 24 horas?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Sí, la recepción está abierta 24 horas."
+    },
+    {
+     "q": "¿Hay wifi?",
+     "esperado": "K11",
+     "ok": true,
+     "respuesta": "Sí, el wifi es gratuito en todo el hotel."
+    },
+    {
+     "q": "¿Cuánto cuesta la noche?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "No dispongo de esa información. Escríbenos o llámanos: +34 926 22 85 45 · recepcion@santacecilia.com."
+    },
+    {
+     "q": "¿Tenéis spa?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "No dispongo de esa información. Escríbenos o llámanos: +34 926 22 85 45 · recepcion@santacecilia.com."
+    }
+   ],
+   "chips": [
+    "¿Qué habitaciones tenéis?",
+    "¿Hay piscina?",
+    "¿Dónde aparco?",
+    "¿Cómo reservo?"
+   ]
+  },
+  "en": {
+   "textos_iguales_al_es": [
+    "hero_k",
+    "intro_k"
+   ],
+   "chat": [
+    {
+     "q": "Which rooms do you have?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "There are 70 rooms: Twin (35 m²), Superior Double (40 m², Queen bed and semicircular bathtub), Junior Suite (45 m², with hydromassage column"
+    },
+    {
+     "q": "Is there a pool?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "Yes, there is an outdoor pool from 1 June to 1 September, for guests only. It is not adapted for people with reduced mobility."
+    },
+    {
+     "q": "Where can I park?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "The hotel has private covered parking, subject to availability and paid directly at the hotel."
+    },
+    {
+     "q": "Do you have a cot for babies?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "Yes, cots are available free of charge on request for children up to 3, subject to availability."
+    },
+    {
+     "q": "Is there a restaurant?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "Yes, the Guijas de la Mancha restaurant, with a café, buffet breakfast and cooking that blends tradition and originality, including La Manch"
+    },
+    {
+     "q": "Where is the hotel?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "At Calle Tinte 3, 13001 Ciudad Real, next to Plaza del Pilar. From the AVE station, city buses 3, 4 or 5 to the Plaza del Pilar stop; the ho"
+    },
+    {
+     "q": "What is there to visit?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "They suggest the Puerta de Toledo, the only surviving gate of the old walls, and the Alarcos Archaeological Park, about 8 km away. The hotel"
+    },
+    {
+     "q": "How do I book?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "You can check availability and book on their booking engine (Book button), call +34 926 22 85 45 or email recepcion@santacecilia.com. This a"
+    },
+    {
+     "q": "Can you confirm availability for tomorrow?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "You can check availability and book on their booking engine (Book button), call +34 926 22 85 45 or email recepcion@santacecilia.com. This a"
+    },
+    {
+     "q": "Do you have event rooms?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "Yes, it has rooms for meetings, conventions and congresses, set up theatre, classroom, boardroom or U-shape, and organises weddings and fami"
+    },
+    {
+     "q": "Is reception open 24 hours?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Yes, reception is open 24 hours."
+    },
+    {
+     "q": "Is there wifi?",
+     "esperado": "K11",
+     "ok": true,
+     "respuesta": "Yes, wifi is free throughout the hotel."
+    },
+    {
+     "q": "How much is a night?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "I don't have that information. Please contact us: +34 926 22 85 45 · recepcion@santacecilia.com."
+    },
+    {
+     "q": "Do you have a spa?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "I don't have that information. Please contact us: +34 926 22 85 45 · recepcion@santacecilia.com."
+    }
+   ],
+   "chips": [
+    "Which rooms do you have?",
+    "Is there a pool?",
+    "Where can I park?",
+    "How do I book?"
+   ]
+  },
+  "fr": {
+   "textos_iguales_al_es": [
+    "hero_k",
+    "intro_k"
+   ],
+   "chat": [
+    {
+     "q": "Quelles chambres avez-vous ?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "Il y a 70 chambres : Twin (35 m²), Double Supérieure (40 m², lit Queen et baignoire semi-circulaire), Junior Suite (45 m², avec colonne d’hy"
+    },
+    {
+     "q": "Y a-t-il une piscine ?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "Oui, piscine extérieure du 1er juin au 1er septembre, réservée aux clients. Elle n’est pas adaptée aux personnes à mobilité réduite."
+    },
+    {
+     "q": "Où me garer ?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "L’hôtel dispose d’un parking privé couvert, selon disponibilité et payable directement à l’hôtel."
+    },
+    {
+     "q": "Avez-vous un lit bébé ?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "Oui, des lits bébé sont fournis gratuitement sur demande pour les enfants jusqu’à 3 ans, selon disponibilité."
+    },
+    {
+     "q": "Y a-t-il un restaurant ?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "Oui, le restaurant Guijas de la Mancha, avec cafétéria, petit-déjeuner buffet et une cuisine qui allie tradition et originalité, avec des pl"
+    },
+    {
+     "q": "Où se trouve l’hôtel ?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "Calle Tinte 3, 13001 Ciudad Real, près de la Plaza del Pilar. Depuis la gare AVE, bus urbains 3, 4 ou 5 jusqu’à l’arrêt Plaza del Pilar ; l’"
+    },
+    {
+     "q": "Que peut-on visiter ?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "Ils recommandent la Puerta de Toledo, seule porte des remparts conservée, et le parc archéologique d’Alarcos, à environ 8 km. L’hôtel propos"
+    },
+    {
+     "q": "Comment réserver ?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Vous pouvez vérifier la disponibilité et réserver sur leur moteur de réservation (bouton Réserver), appeler le +34 926 22 85 45 ou écrire à "
+    },
+    {
+     "q": "Pouvez-vous me confirmer la disponibilité pour demain ?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Vous pouvez vérifier la disponibilité et réserver sur leur moteur de réservation (bouton Réserver), appeler le +34 926 22 85 45 ou écrire à "
+    },
+    {
+     "q": "Avez-vous des salons pour événements ?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "Oui, il dispose de salons pour réunions, conventions et congrès, en théâtre, école, impérial ou en U, et organise mariages et fêtes de famil"
+    },
+    {
+     "q": "La réception est-elle ouverte 24 h/24 ?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Oui, la réception est ouverte 24 h/24."
+    },
+    {
+     "q": "Y a-t-il le wifi ?",
+     "esperado": "K11",
+     "ok": true,
+     "respuesta": "Oui, le wifi est gratuit dans tout l’hôtel."
+    },
+    {
+     "q": "Combien coûte la nuit ?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "Je ne dispose pas de cette information. Contactez-nous : +34 926 22 85 45 · recepcion@santacecilia.com."
+    },
+    {
+     "q": "Avez-vous un spa ?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "Je ne dispose pas de cette information. Contactez-nous : +34 926 22 85 45 · recepcion@santacecilia.com."
+    }
+   ],
+   "chips": [
+    "Quelles chambres avez-vous ?",
+    "Y a-t-il une piscine ?",
+    "Où me garer ?",
+    "Comment réserver ?"
+   ]
+  },
+  "de": {
+   "textos_iguales_al_es": [
+    "hero_k",
+    "intro_k"
+   ],
+   "chat": [
+    {
+     "q": "Welche Zimmer gibt es?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "Es gibt 70 Zimmer: Twin (35 m²), Superior-Doppelzimmer (40 m², Queen-Bett und halbrunde Badewanne), Junior Suite (45 m², mit Hydromassagesäu"
+    },
+    {
+     "q": "Gibt es einen Pool?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "Ja, es gibt einen Außenpool vom 1. Juni bis 1. September, nur für Gäste. Er ist nicht für Personen mit eingeschränkter Mobilität geeignet."
+    },
+    {
+     "q": "Wo kann ich parken?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "Das Hotel hat einen privaten überdachten Parkplatz, je nach Verfügbarkeit, direkt im Hotel zu bezahlen."
+    },
+    {
+     "q": "Gibt es ein Babybett?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "Ja, Babybetten gibt es kostenlos auf Anfrage für Kinder bis 3 Jahre, je nach Verfügbarkeit."
+    },
+    {
+     "q": "Gibt es ein Restaurant?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "Ja, das Restaurant Guijas de la Mancha mit Cafeteria, Frühstücksbuffet und einer Küche, die Tradition und Originalität verbindet, mit Gerich"
+    },
+    {
+     "q": "Wo liegt das Hotel?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "In der Calle Tinte 3, 13001 Ciudad Real, neben der Plaza del Pilar. Vom AVE-Bahnhof mit den Stadtbussen 3, 4 oder 5 bis zur Haltestelle Plaz"
+    },
+    {
+     "q": "Was kann man besichtigen?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "Empfohlen werden die Puerta de Toledo, das einzige erhaltene Stadttor, und der Archäologische Park Alarcos, etwa 8 km entfernt. Das Hotel bi"
+    },
+    {
+     "q": "Wie kann ich buchen?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Sie können über die Buchungsmaschine (Schaltfläche Buchen) die Verfügbarkeit prüfen und buchen, +34 926 22 85 45 anrufen oder an recepcion@s"
+    },
+    {
+     "q": "Können Sie mir die Verfügbarkeit für morgen bestätigen?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Sie können über die Buchungsmaschine (Schaltfläche Buchen) die Verfügbarkeit prüfen und buchen, +34 926 22 85 45 anrufen oder an recepcion@s"
+    },
+    {
+     "q": "Gibt es Veranstaltungssäle?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "Ja, es gibt Säle für Tagungen, Kongresse und Konferenzen, bestuhlt als Theater, Schule, Tafel oder U-Form, und das Hotel organisiert Hochzei"
+    },
+    {
+     "q": "Ist die Rezeption rund um die Uhr besetzt?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Ja, die Rezeption ist rund um die Uhr besetzt."
+    },
+    {
+     "q": "Gibt es WLAN?",
+     "esperado": "K11",
+     "ok": true,
+     "respuesta": "Ja, WLAN ist im ganzen Hotel kostenlos."
+    },
+    {
+     "q": "Was kostet eine Nacht?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "Diese Information liegt mir nicht vor. Schreiben oder rufen Sie uns an: +34 926 22 85 45 · recepcion@santacecilia.com."
+    },
+    {
+     "q": "Haben Sie ein Spa?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "Diese Information liegt mir nicht vor. Schreiben oder rufen Sie uns an: +34 926 22 85 45 · recepcion@santacecilia.com."
+    }
+   ],
+   "chips": [
+    "Welche Zimmer gibt es?",
+    "Gibt es einen Pool?",
+    "Wo kann ich parken?",
+    "Wie kann ich buchen?"
+   ]
+  }
+ },
+ "fail": [],
+ "ok": true
+}
