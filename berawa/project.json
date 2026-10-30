@@ -1,0 +1,63 @@
+{
+ "schema": "berawa-project/1",
+ "slug": "demo-hotel-santa-cecilia-ciudad-real",
+ "template_version": "webfactory-2026.10.28+modelo-cazorla-6cfa67d",
+ "created_at": "2026-10-30T11:25:00+01:00",
+ "updated_at": "2026-10-30T11:35:00+01:00",
+ "business": {
+  "name": "Hotel Santa Cecilia",
+  "legal_name": "Hotel Santa Cecilia S.A (aviso legal de su web)",
+  "registry_ids": [
+   "A13026208"
+  ],
+  "url": "https://www.santacecilia.com/",
+  "domain": "santacecilia.com",
+  "municipality": "Ciudad Real",
+  "province": "Ciudad Real",
+  "address": "Calle Tinte 3 · 13001 Ciudad Real",
+  "phones": [
+   "+34 926 22 85 45"
+  ],
+  "emails": [
+   "recepcion@santacecilia.com"
+  ],
+  "sector": "hotel urbano de cuatro estrellas en el centro de Ciudad Real"
+ },
+ "rating": {
+  "value": 4.1,
+  "source": "Google Maps (maps_rating.py, ficha comprobada por tel, web)",
+  "url": "https://www.google.com/maps/place/Hotel+Santa+Cecilia/@38.9819253,-3.9287351,17z/data=!4m9!3m8!1s0xd6bc315068d4829:0x20f6c2bdcc8e478a!5m2!4m1!1i2!8m2!3d38.9819253!4d-3.9287351!16s%2Fg%2F1tdljmxp",
+  "date": "2026-10-29",
+  "threshold": 4.0
+ },
+ "languages": [
+  "es",
+  "en",
+  "fr",
+  "de"
+ ],
+ "noindex": true,
+ "notice_es": "Propuesta de rediseño independiente, no oficial",
+ "chatbot": {
+  "api": false,
+  "kind": "base local de respuestas verificadas",
+  "knowledge": "berawa/knowledge.json",
+  "fallback_es": "No dispongo de esa información"
+ },
+ "book": {
+  "mode": "engine",
+  "url": "https://hotelsantacecilia.bookinweb.es/es/reserva",
+  "note": "motor de reservas real enlazado desde su web (Bookinweb), HTTP 200 comprobado el 30/10/2026 en /es/reserva y /en/reserva; el motor no tiene francés ni alemán: fr y de usan la versión inglesa."
+ },
+ "audit_original": {
+  "url": "https://www.santacecilia.com/",
+  "date": "2026-10-30T11:26:30+01:00",
+  "veredicto": "LCP > 4 s",
+  "tool": "filtro_mala_web.py (Lighthouse movil, mediana de 3 pasadas)"
+ },
+ "first_of_type": "no aplica: alojamiento con precedente en demos anteriores",
+ "codex": {
+  "audits": []
+ },
+ "changes_log": "ver CORRECCIONES.md (si existe) y berawa/V1.0-CAMBIOS.md"
+}
