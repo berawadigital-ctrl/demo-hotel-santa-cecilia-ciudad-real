@@ -1,0 +1,525 @@
+{
+ "schema": "berawa-knowledge/1",
+ "project": "demo-hotel-santa-cecilia-ciudad-real",
+ "source_site": "https://www.santacecilia.com/",
+ "source_read_at": "2026-10-30T11:26:00+01:00",
+ "note": "Respuestas solo con datos publicados en la web del negocio. Sin coincidencia: el asistente dice que no dispone de la informacion y ofrece contacto.",
+ "entries": [
+  {
+   "id": "K01",
+   "topic": "habitaciones",
+   "keys": {
+    "es": [
+     "habitacion",
+     "twin",
+     "suite",
+     "triple"
+    ],
+    "en": [
+     "which rooms",
+     "room types",
+     "twin",
+     "suite",
+     "triple"
+    ],
+    "fr": [
+     "quelles chambres",
+     "twin",
+     "suite",
+     "triple"
+    ],
+    "de": [
+     "welche zimmer",
+     "zimmertyp",
+     "twin",
+     "suite",
+     "dreibett"
+    ]
+   },
+   "a": {
+    "es": "Tiene 70 habitaciones: Twin (35 m²), Doble Superior (40 m², cama Queen y bañera semicircular), Junior Suite (45 m², con columna de hidromasaje), Triple y Doble Superior Adaptada. Todas con wifi gratuito y TV.",
+    "en": "There are 70 rooms: Twin (35 m²), Superior Double (40 m², Queen bed and semicircular bathtub), Junior Suite (45 m², with hydromassage column), Triple and accessible Superior Double. All with free wifi and TV.",
+    "fr": "Il y a 70 chambres : Twin (35 m²), Double Supérieure (40 m², lit Queen et baignoire semi-circulaire), Junior Suite (45 m², avec colonne d’hydromassage), Triple et Double Supérieure adaptée. Toutes avec wifi gratuit et TV.",
+    "de": "Es gibt 70 Zimmer: Twin (35 m²), Superior-Doppelzimmer (40 m², Queen-Bett und halbrunde Badewanne), Junior Suite (45 m², mit Hydromassagesäule), Dreibettzimmer und barrierefreies Superior-Doppelzimmer. Alle mit kostenlosem WLAN und TV."
+   },
+   "sources": [
+    {
+     "url": "https://www.santacecilia.com/habitaciones/",
+     "quote": "El Hotel Santa Cecilia cuenta con 70 habitaciones totalmente equipadas"
+    },
+    {
+     "url": "https://www.santacecilia.com/habitaciones/",
+     "quote": "Habitación doble estándar, de 35 m2 con dos camas twin"
+    },
+    {
+     "url": "https://www.santacecilia.com/habitaciones/",
+     "quote": "Habitación doble superior, 40 m2 cama Queen"
+    },
+    {
+     "url": "https://www.santacecilia.com/habitaciones/",
+     "quote": "con bañera semicircular"
+    },
+    {
+     "url": "https://www.santacecilia.com/habitaciones/",
+     "quote": "Junior suite de 45 m2"
+    },
+    {
+     "url": "https://www.santacecilia.com/habitaciones/",
+     "quote": "baño con columna de hidromasaje"
+    },
+    {
+     "url": "https://www.santacecilia.com/habitaciones/",
+     "quote": "Habitación Triple"
+    },
+    {
+     "url": "https://www.santacecilia.com/habitaciones/",
+     "quote": "Habitación Doble Superior Adaptada"
+    },
+    {
+     "url": "https://www.santacecilia.com/habitaciones/",
+     "quote": "Todas disponen de WiFi gratuito y TV"
+    }
+   ],
+   "cta": false
+  },
+  {
+   "id": "K02",
+   "topic": "piscina",
+   "keys": {
+    "es": [
+     "piscina"
+    ],
+    "en": [
+     "pool"
+    ],
+    "fr": [
+     "piscine"
+    ],
+    "de": [
+     "pool",
+     "schwimm"
+    ]
+   },
+   "a": {
+    "es": "Sí, hay piscina al aire libre del 1 de junio al 1 de septiembre, solo para clientes. No está adaptada para personas con movilidad reducida.",
+    "en": "Yes, there is an outdoor pool from 1 June to 1 September, for guests only. It is not adapted for people with reduced mobility.",
+    "fr": "Oui, piscine extérieure du 1er juin au 1er septembre, réservée aux clients. Elle n’est pas adaptée aux personnes à mobilité réduite.",
+    "de": "Ja, es gibt einen Außenpool vom 1. Juni bis 1. September, nur für Gäste. Er ist nicht für Personen mit eingeschränkter Mobilität geeignet."
+   },
+   "sources": [
+    {
+     "url": "https://www.santacecilia.com/",
+     "quote": "Piscina del 1 de junio al 1 de septiembre, solo clientes"
+    },
+    {
+     "url": "https://www.santacecilia.com/",
+     "quote": "Nuestra piscina NO está adaptada para personas con movilidad reducida"
+    },
+    {
+     "url": "https://www.santacecilia.com/servicios/",
+     "quote": "una refrescante piscina al aire libre"
+    }
+   ],
+   "cta": false
+  },
+  {
+   "id": "K03",
+   "topic": "aparcamiento",
+   "keys": {
+    "es": [
+     "aparc",
+     "parking",
+     "garaje",
+     "coche"
+    ],
+    "en": [
+     "park",
+     "garage",
+     " car"
+    ],
+    "fr": [
+     "garer",
+     "parking",
+     "garage",
+     "voiture"
+    ],
+    "de": [
+     "parken",
+     "parkplatz",
+     "garage",
+     "auto "
+    ]
+   },
+   "a": {
+    "es": "El hotel dispone de aparcamiento privado cubierto, bajo disponibilidad y de pago directamente en el hotel.",
+    "en": "The hotel has private covered parking, subject to availability and paid directly at the hotel.",
+    "fr": "L’hôtel dispose d’un parking privé couvert, selon disponibilité et payable directement à l’hôtel.",
+    "de": "Das Hotel hat einen privaten überdachten Parkplatz, je nach Verfügbarkeit, direkt im Hotel zu bezahlen."
+   },
+   "sources": [
+    {
+     "url": "https://www.santacecilia.com/",
+     "quote": "El hotel dispone de aparcamiento privado (bajo disponibilidad)"
+    },
+    {
+     "url": "https://www.santacecilia.com/",
+     "quote": "Debe pagarse directamente en el hotel"
+    },
+    {
+     "url": "https://www.santacecilia.com/servicios/",
+     "quote": "un aparcamiento cubierto"
+    }
+   ],
+   "cta": false
+  },
+  {
+   "id": "K04",
+   "topic": "cuna",
+   "keys": {
+    "es": [
+     "cuna",
+     "bebe"
+    ],
+    "en": [
+     "cot",
+     "baby",
+     "babies"
+    ],
+    "fr": [
+     "lit bebe",
+     "bebe"
+    ],
+    "de": [
+     "babybett",
+     "baby"
+    ]
+   },
+   "a": {
+    "es": "Sí, hay cunas sin coste adicional, bajo petición, para niños de hasta 3 años, sujetas a disponibilidad.",
+    "en": "Yes, cots are available free of charge on request for children up to 3, subject to availability.",
+    "fr": "Oui, des lits bébé sont fournis gratuitement sur demande pour les enfants jusqu’à 3 ans, selon disponibilité.",
+    "de": "Ja, Babybetten gibt es kostenlos auf Anfrage für Kinder bis 3 Jahre, je nach Verfügbarkeit."
+   },
+   "sources": [
+    {
+     "url": "https://www.santacecilia.com/servicios/",
+     "quote": "la disposición de cunas sin coste adicional bajo petición para niños de hasta 3 años"
+    },
+    {
+     "url": "https://www.santacecilia.com/",
+     "quote": "Cunas sujetas a disponibilidad"
+    }
+   ],
+   "cta": false
+  },
+  {
+   "id": "K05",
+   "topic": "restaurante",
+   "keys": {
+    "es": [
+     "restaurante",
+     "comer",
+     "cenar"
+    ],
+    "en": [
+     "restaurant",
+     "dinner",
+     "lunch"
+    ],
+    "fr": [
+     "restaurant",
+     "diner"
+    ],
+    "de": [
+     "restaurant",
+     "essen"
+    ]
+   },
+   "a": {
+    "es": "Sí, el Restaurante Guijas de la Mancha, con cafetería, desayuno buffet y cocina que une tradición y originalidad, con platos manchegos.",
+    "en": "Yes, the Guijas de la Mancha restaurant, with a café, buffet breakfast and cooking that blends tradition and originality, including La Mancha dishes.",
+    "fr": "Oui, le restaurant Guijas de la Mancha, avec cafétéria, petit-déjeuner buffet et une cuisine qui allie tradition et originalité, avec des plats de la Manche.",
+    "de": "Ja, das Restaurant Guijas de la Mancha mit Cafeteria, Frühstücksbuffet und einer Küche, die Tradition und Originalität verbindet, mit Gerichten aus La Mancha."
+   },
+   "sources": [
+    {
+     "url": "https://www.santacecilia.com/restaurante/",
+     "quote": "Restaurante Guijas de la Mancha"
+    },
+    {
+     "url": "https://www.santacecilia.com/restaurante/",
+     "quote": "una experiencia culinaria única que combina la tradición con la originalidad"
+    },
+    {
+     "url": "https://www.santacecilia.com/restaurante/",
+     "quote": "Desayuno Buffet"
+    },
+    {
+     "url": "https://www.santacecilia.com/restaurante/",
+     "quote": "Gastronomía Manchega"
+    }
+   ],
+   "cta": false
+  },
+  {
+   "id": "K06",
+   "topic": "ubicacion",
+   "keys": {
+    "es": [
+     "donde esta",
+     "direccion",
+     "ubicacion",
+     "como llegar"
+    ],
+    "en": [
+     "where is",
+     "address",
+     "location",
+     "get there"
+    ],
+    "fr": [
+     "ou se trouv",
+     "adresse",
+     "emplacement"
+    ],
+    "de": [
+     "wo liegt",
+     "adresse",
+     "lage"
+    ]
+   },
+   "a": {
+    "es": "En la Calle Tinte 3, 13001 Ciudad Real, junto a la Plaza del Pilar. Desde la estación de AVE, autobuses urbanos 3, 4 o 5 hasta la parada Plaza del Pilar; el hotel está a 50 metros.",
+    "en": "At Calle Tinte 3, 13001 Ciudad Real, next to Plaza del Pilar. From the AVE station, city buses 3, 4 or 5 to the Plaza del Pilar stop; the hotel is 50 metres away.",
+    "fr": "Calle Tinte 3, 13001 Ciudad Real, près de la Plaza del Pilar. Depuis la gare AVE, bus urbains 3, 4 ou 5 jusqu’à l’arrêt Plaza del Pilar ; l’hôtel est à 50 mètres.",
+    "de": "In der Calle Tinte 3, 13001 Ciudad Real, neben der Plaza del Pilar. Vom AVE-Bahnhof mit den Stadtbussen 3, 4 oder 5 bis zur Haltestelle Plaza del Pilar; das Hotel liegt 50 Meter entfernt."
+   },
+   "sources": [
+    {
+     "url": "https://www.santacecilia.com/contacto/",
+     "quote": "Calle Tinte 3, 13001 Ciudad Real"
+    },
+    {
+     "url": "https://www.santacecilia.com/contacto/",
+     "quote": "coge las líneas 3, 4 o 5 de autobús urbano hasta la parada Plaza del Pilar"
+    },
+    {
+     "url": "https://www.santacecilia.com/contacto/",
+     "quote": "A 50 metros encontrarás el Hotel Santa Cecilia"
+    }
+   ],
+   "cta": false
+  },
+  {
+   "id": "K07",
+   "topic": "que_visitar",
+   "keys": {
+    "es": [
+     "cerca",
+     "visitar",
+     "que ver"
+    ],
+    "en": [
+     "nearby",
+     "visit",
+     "what to see"
+    ],
+    "fr": [
+     "proximit",
+     "visiter",
+     "que voir"
+    ],
+    "de": [
+     "nahe",
+     "besichtig",
+     "sehenswurd"
+    ]
+   },
+   "a": {
+    "es": "Recomiendan la Puerta de Toledo, la única puerta de la muralla que se conserva, y el Parque Arqueológico de Alarcos, a unos 8 km. El hotel ofrece visitas guiadas en español, francés o inglés con la Asociación de guías turísticos de Castilla-La Mancha.",
+    "en": "They suggest the Puerta de Toledo, the only surviving gate of the old walls, and the Alarcos Archaeological Park, about 8 km away. The hotel offers guided tours in Spanish, French or English with the Castilla-La Mancha tourist guides association.",
+    "fr": "Ils recommandent la Puerta de Toledo, seule porte des remparts conservée, et le parc archéologique d’Alarcos, à environ 8 km. L’hôtel propose des visites guidées en espagnol, français ou anglais avec l’association des guides de Castille-La Manche.",
+    "de": "Empfohlen werden die Puerta de Toledo, das einzige erhaltene Stadttor, und der Archäologische Park Alarcos, etwa 8 km entfernt. Das Hotel bietet Führungen auf Spanisch, Französisch oder Englisch mit dem Fremdenführerverband von Kastilien-La Mancha."
+   },
+   "sources": [
+    {
+     "url": "https://www.santacecilia.com/turismo/",
+     "quote": "A unos 8 km de Ciudad Real, junto al río Guadiana, se encuentra el Parque Arqueológico de Alarcos"
+    },
+    {
+     "url": "https://www.santacecilia.com/turismo/",
+     "quote": "ésta es la única que se conserva en la actualidad, la Puerta de Toledo"
+    },
+    {
+     "url": "https://www.santacecilia.com/turismo/",
+     "quote": "El hotel le ofrece la posibilidad de realizar visitas guiadas en la ciudad y en la provincia en español, francés o inglés"
+    }
+   ],
+   "cta": false
+  },
+  {
+   "id": "K08",
+   "topic": "reservar",
+   "keys": {
+    "es": [
+     "reserv",
+     "disponib",
+     "confirm"
+    ],
+    "en": [
+     "how do i book",
+     "to book",
+     "booking",
+     "reserv",
+     "availab",
+     "confirm"
+    ],
+    "fr": [
+     "reserv",
+     "disponib",
+     "confirm"
+    ],
+    "de": [
+     "buchen",
+     "buchung",
+     "reserv",
+     "verfugbar",
+     "bestatig"
+    ]
+   },
+   "a": {
+    "es": "Puedes buscar disponibilidad y reservar en su motor de reservas (botón Reservar), llamar al +34 926 22 85 45 o escribir a recepcion@santacecilia.com. Este asistente no confirma disponibilidad ni reservas.",
+    "en": "You can check availability and book on their booking engine (Book button), call +34 926 22 85 45 or email recepcion@santacecilia.com. This assistant does not confirm availability or bookings.",
+    "fr": "Vous pouvez vérifier la disponibilité et réserver sur leur moteur de réservation (bouton Réserver), appeler le +34 926 22 85 45 ou écrire à recepcion@santacecilia.com. Cet assistant ne confirme ni disponibilité ni réservation.",
+    "de": "Sie können über die Buchungsmaschine (Schaltfläche Buchen) die Verfügbarkeit prüfen und buchen, +34 926 22 85 45 anrufen oder an recepcion@santacecilia.com schreiben. Dieser Assistent bestätigt weder Verfügbarkeit noch Buchungen."
+   },
+   "sources": [
+    {
+     "url": "https://www.santacecilia.com/contacto/",
+     "quote": "926 22 85 45"
+    },
+    {
+     "url": "https://www.santacecilia.com/contacto/",
+     "quote": "recepcion@santacecilia.com"
+    }
+   ],
+   "cta": true
+  },
+  {
+   "id": "K09",
+   "topic": "eventos",
+   "keys": {
+    "es": [
+     "salon",
+     "evento",
+     "reunion",
+     "boda"
+    ],
+    "en": [
+     "event",
+     "meeting",
+     "wedding"
+    ],
+    "fr": [
+     "salon",
+     "evenement",
+     "reunion",
+     "mariage"
+    ],
+    "de": [
+     "veranstaltung",
+     "tagung",
+     "hochzeit"
+    ]
+   },
+   "a": {
+    "es": "Sí, tiene salones para reuniones, convenciones y congresos, con montaje en teatro, escuela, imperial o en U, y organiza bodas y celebraciones familiares.",
+    "en": "Yes, it has rooms for meetings, conventions and congresses, set up theatre, classroom, boardroom or U-shape, and organises weddings and family celebrations.",
+    "fr": "Oui, il dispose de salons pour réunions, conventions et congrès, en théâtre, école, impérial ou en U, et organise mariages et fêtes de famille.",
+    "de": "Ja, es gibt Säle für Tagungen, Kongresse und Konferenzen, bestuhlt als Theater, Schule, Tafel oder U-Form, und das Hotel organisiert Hochzeiten und Familienfeiern."
+   },
+   "sources": [
+    {
+     "url": "https://www.santacecilia.com/",
+     "quote": "El lugar perfecto para la celebración de sus reuniones, convenciones y congresos"
+    },
+    {
+     "url": "https://www.santacecilia.com/",
+     "quote": "en Teatro, en Escuela, Imperial, en U"
+    },
+    {
+     "url": "https://www.santacecilia.com/servicios/",
+     "quote": "Desde reuniones de trabajo y conferencias hasta eventos familiares como bautizos, comuniones o cumpleaños"
+    }
+   ],
+   "cta": false
+  },
+  {
+   "id": "K10",
+   "topic": "recepcion",
+   "keys": {
+    "es": [
+     "recepcion"
+    ],
+    "en": [
+     "reception"
+    ],
+    "fr": [
+     "reception"
+    ],
+    "de": [
+     "rezeption"
+    ]
+   },
+   "a": {
+    "es": "Sí, la recepción está abierta 24 horas.",
+    "en": "Yes, reception is open 24 hours.",
+    "fr": "Oui, la réception est ouverte 24 h/24.",
+    "de": "Ja, die Rezeption ist rund um die Uhr besetzt."
+   },
+   "sources": [
+    {
+     "url": "https://www.santacecilia.com/servicios/",
+     "quote": "Recepción 24 horas"
+    }
+   ],
+   "cta": false
+  },
+  {
+   "id": "K11",
+   "topic": "wifi",
+   "keys": {
+    "es": [
+     "wifi",
+     "internet"
+    ],
+    "en": [
+     "wifi",
+     "internet"
+    ],
+    "fr": [
+     "wifi",
+     "internet"
+    ],
+    "de": [
+     "wlan",
+     "wifi",
+     "internet"
+    ]
+   },
+   "a": {
+    "es": "Sí, el wifi es gratuito en todo el hotel.",
+    "en": "Yes, wifi is free throughout the hotel.",
+    "fr": "Oui, le wifi est gratuit dans tout l’hôtel.",
+    "de": "Ja, WLAN ist im ganzen Hotel kostenlos."
+   },
+   "sources": [
+    {
+     "url": "https://www.santacecilia.com/servicios/",
+     "quote": "acceso gratuito a Wi-Fi de alta velocidad"
+    }
+   ],
+   "cta": false
+  }
+ ]
+}

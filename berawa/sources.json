@@ -1,0 +1,49 @@
+{
+ "schema": "berawa-sources/1",
+ "site": "https://www.santacecilia.com/",
+ "read_at": "2026-10-30T11:26:00+01:00",
+ "method": "Texto visible de cada pagina leido de la web publica del negocio en la fecha indicada (fetch_sources.py) y guardado en berawa/evidence/source-text.json; las citas del chatbot se comprueban contra ese texto con check_kb.py.",
+ "pages": [
+  {
+   "url": "https://www.santacecilia.com/",
+   "sha256": "06beb4a01e0066fbcab919750b8abf1ec892bebab15c7b1ac6278b03c32dcb05",
+   "chars": 4661
+  },
+  {
+   "url": "https://www.santacecilia.com/contacto/",
+   "sha256": "d6e3cb408ab714889e0dbca402b3ccb8b8b40037e0562ad8624c73542ac8482e",
+   "chars": 1756
+  },
+  {
+   "url": "https://www.santacecilia.com/habitaciones/",
+   "sha256": "50e35841253d70bd8a72ba9eac0634a969cab6064c427c96cd63fd161abe0729",
+   "chars": 3052
+  },
+  {
+   "url": "https://www.santacecilia.com/restaurante/",
+   "sha256": "cf7771dde9c746b14f0ed3c58562184830da7daad7d8a617688b3d2f543fad5f",
+   "chars": 6314
+  },
+  {
+   "url": "https://www.santacecilia.com/servicios/",
+   "sha256": "4bdad75226aad455358b4a82363c9d831ac5b34703d1c2e41146cce7f16acb31",
+   "chars": 5142
+  },
+  {
+   "url": "https://www.santacecilia.com/turismo/",
+   "sha256": "45092f9f32a87f4dd78e7f3bac00c2ca48d8fac204b634b3b5c0570d2b438b0b",
+   "chars": 21977
+  }
+ ],
+ "other_pages_read": [
+  "https://www.santacecilia.com/aviso-legal/",
+  "https://www.santacecilia.com/bodas/",
+  "https://www.santacecilia.com/empleo/",
+  "https://www.santacecilia.com/galeria/",
+  "https://www.santacecilia.com/politica-de-cookies/",
+  "https://www.santacecilia.com/politica-de-privacidad/",
+  "https://www.santacecilia.com/promociones/",
+  "https://www.santacecilia.com/salones/",
+  "https://www.santacecilia.com/wp-login.php?redirect_to=https%3A%2F%2Fwww.santacecilia.com"
+ ]
+}

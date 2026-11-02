@@ -1,0 +1,30 @@
+{
+ "schema": "berawa-captacion/1",
+ "negocio": "hotel-santa-cecilia-ciudad-real",
+ "maps": {
+  "fecha": "2026-10-29T14:33:45+01:00",
+  "estado": "LEIDA",
+  "ficha": "Hotel Santa Cecilia",
+  "nota": 4.1,
+  "coincide": {
+   "tel": true,
+   "web": true
+  },
+  "url": "https://www.google.com/maps/place/Hotel+Santa+Cecilia/@38.9819253,-3.9287351,17z/data=!4m9!3m8!1s0xd6bc315068d4829:0x20f6c2bdcc8e478a!5m2!4m1!1i2!8m2!3d38.9819253!4d-3.9287351!16s%2Fg%2F1tdljmxp",
+  "herramienta": "factory/webfactory/maps_rating.py"
+ },
+ "web_filtro": {
+  "fecha": "2026-10-29T14:33:45+01:00",
+  "veredicto": "MALA",
+  "informe_velocidad": "LCP > 4 s",
+  "herramienta": "filtro_mala_web.py (Lighthouse movil, mediana de 3 pasadas)"
+ },
+ "titular": {
+  "razon_social": "Hotel Santa Cecilia S.A",
+  "cif": "A13026208",
+  "fuente": "aviso legal de su web https://www.santacecilia.com/aviso-legal/",
+  "persona_juridica": true,
+  "cadena": false,
+  "nota": "sociedad identificada en el aviso legal de su propia web; un solo hotel"
+ }
+}
